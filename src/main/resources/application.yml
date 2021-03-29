@@ -1,5 +1,4 @@
-spring:
-  datasource:
-    url: jdbc:h2:mem:testdb
-    schema: schema.sql
-    data: data.sql
+application:
+  url: jdbc:postgresql://localhost:5432/jdbc_test
+  user: postgres
+  password: 4444

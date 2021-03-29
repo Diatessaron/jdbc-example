@@ -1,7 +1,9 @@
 spring:
-  datasource:
-    url: jdbc:h2:mem:testdb
-    data: test-data.sql
   shell:
     interactive:
       enabled: false
+
+application:
+  url: jdbc:postgresql://localhost:5432/jdbc_test
+  user: postgres
+  password: 4444
